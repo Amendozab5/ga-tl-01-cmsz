@@ -144,6 +144,6 @@ git log --oneline --author="Nombre del integrante"
 
 ## Enlaces
 
-- **Repositorio:** `https://github.com/USUARIO/ga-tl-01-cmsz`
+- **Repositorio:** `https://github.com/Amendozab5/ga-tl-01-cmsz`
 - **Diagrama:** `diagrama/sistema-bancario.pdf`
 - **Notas:** `notas/notas-presentacion.pdf`
