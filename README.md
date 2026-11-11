@@ -13,10 +13,10 @@
 
 | Inicial | Nombre completo | GitHub | Rol |
 |---|---|---|---|
-| **C** | _Completar_ | [@usuario-c](https://github.com/usuario-c) | Coordinación + transferencias |
-| **M** | _Completar_ | [@usuario-m](https://github.com/usuario-m) | Diagrama + cajeros |
-| **S** | _Completar_ | [@usuario-s](https://github.com/usuario-s) | Núcleo + notas |
-| **Z** | _Completar_ | [@usuario-z](https://github.com/usuario-z) | Eventos + entrega |
+| **C** | _CEDEÑO INTRIAGO JILMAR JESUS_ | [@usuario-c](https://github.com/usuario-c) | Coordinación + transferencias |
+| **M** | _MENDOZA BERMELLO ANGELLO AGUSTIN_ | [@Amendozab5](https://github.com/Amendozab5) | Diagrama + cajeros |
+| **S** | _SANCHEZ VERA DARWIN JOEL_ | [@DarwinDevCode](https://github.com/DarwinDevCode) | Núcleo + notas |
+| **Z** | _ZAMBRANO TRIVIÑO LEONEL LEONIDAS_ | [@lzambranot6-sys](https://github.com/lzambranot6-sys) | Eventos + entrega |
 
 > Cada integrante debe hacer sus propios commits. El historial es la evidencia del aporte individual.
 
