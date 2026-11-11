@@ -20,7 +20,7 @@ controlar el framing, la conexión persistente y el timeout. No se dispensa sin 
 4. El core debita y responde OK; el servicio marca `DEBITADA`.
 5. El servicio responde al cajero; el cajero dispensa.
 6. Si no hay respuesta en 15 s, el cajero **NO** dispensa.
-7. El servicio marca `DEBITADO_NO_ENTREGADO` y reversa/conciliia.
+7. El servicio marca `DEBITADO_NO_ENTREGADO` y reversa/concilia.
 8. Si el cajero sí dispensó, su journal lo registra y no se reversa.
 
 ## Si falla
@@ -37,6 +37,13 @@ Timeout: no dispensar; estado `EN_PROCESO`; consultar/revertir con `op_id`; conc
 | `DEBITADO_NO_ENTREGADO` | El core debitó, pero el cajero no recibió respuesta. |
 | `REVERSADA` | Se compensó el débito con el mismo `op_id`. |
 | `EN_PROCESO` | Timeout o respuesta perdida; conciliación en curso. |
+
+## F1 — El core debita, pero la respuesta no llega al cajero
+
+Si el core debitó y la respuesta se perdió, el servicio marca
+`DEBITADO_NO_ENTREGADO` y reversa con el mismo `op_id`. Si la reversa falla,
+el job de conciliación reintenta. Si el cajero sí entregó, su journal lo
+registra y no se reversa. El socio no pierde dinero y no hay doble débito.
 
 ## Qué dibujar
 
