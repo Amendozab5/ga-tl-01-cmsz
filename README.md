@@ -13,7 +13,7 @@
 
 | Inicial | Nombre completo | GitHub | Rol |
 |---|---|---|---|
-| **C** | _CEDEÑO INTRIAGO JILMAR JESUS_ | [@usuario-c](https://github.com/usuario-c) | Coordinación + transferencias |
+| **C** | _CEDEÑO INTRIAGO JILMAR JESUS_ | [@jcedenoi4](https://github.com/jcedenoi4) | Coordinación + transferencias |
 | **M** | _MENDOZA BERMELLO ANGELLO AGUSTIN_ | [@Amendozab5](https://github.com/Amendozab5) | Diagrama + cajeros |
 | **S** | _SANCHEZ VERA DARWIN JOEL_ | [@DarwinDevCode](https://github.com/DarwinDevCode) | Núcleo + notas |
 | **Z** | _ZAMBRANO TRIVIÑO LEONEL LEONIDAS_ | [@lzambranot6-sys](https://github.com/lzambranot6-sys) | Eventos + entrega |
