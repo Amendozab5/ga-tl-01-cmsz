@@ -1,0 +1,185 @@
+<mxfile host="app.diagrams.net" modified="2026-11-10T23:00:00-05:00" agent="DSH" version="24.7.17">
+  <diagram id="cmsz-ga-tl-01" name="Cooperativa Ahorro Futuro">
+    <mxGraphModel dx="1600" dy="1050" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1050" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="lane_canales" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#BFDBFE;" vertex="1" parent="1">
+          <mxGeometry x="30" y="90" width="1120" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="lane_canales_label" value="CANALES" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1E3A8A;" vertex="1" parent="1">
+          <mxGeometry x="42" y="98" width="160" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="lane_servicios" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ECFDF5;strokeColor=#A7F3D0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="250" width="1120" height="250" as="geometry"/>
+        </mxCell>
+        <mxCell id="lane_servicios_label" value="SERVICIOS" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#065F46;" vertex="1" parent="1">
+          <mxGeometry x="42" y="258" width="160" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="lane_nucleo" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F3FF;strokeColor=#DDD6FE;" vertex="1" parent="1">
+          <mxGeometry x="30" y="520" width="1120" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="lane_nucleo_label" value="NÚCLEO" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#5B21B6;" vertex="1" parent="1">
+          <mxGeometry x="42" y="528" width="160" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="lane_eventos" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#FED7AA;" vertex="1" parent="1">
+          <mxGeometry x="30" y="710" width="1120" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="lane_eventos_label" value="EVENTOS" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#9A3412;" vertex="1" parent="1">
+          <mxGeometry x="42" y="718" width="160" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="lane_externo" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F1F5F9;strokeColor=#CBD5E1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="880" width="1120" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="lane_externo_label" value="EXTERNO" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="42" y="888" width="160" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="title" value="GA-TL-01 · Grupo CMSZ — Cooperativa Ahorro Futuro" style="text;html=1;align=left;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#0F172A;" vertex="1" parent="1">
+          <mxGeometry x="30" y="14" width="1120" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="subtitle" value="Escenario 4 · 8 flujos · RPC + sockets + mensajería · Entrega 11/11/2026" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontColor=#475569;" vertex="1" parent="1">
+          <mxGeometry x="30" y="50" width="1120" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="box_app" value="Socio / App-Web" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;fontColor=#0F172A;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="130" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="box_atm" value="Cajero automático" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;fontColor=#0F172A;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="130" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="box_teller" value="Cajero de ventanilla" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;fontColor=#0F172A;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="130" width="210" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="box_accounts" value="Servicio de Cuentas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#059669;fontColor=#0F172A;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="190" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="box_tx" value="Servicio de&#10;Transferencias" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#059669;fontColor=#0F172A;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="300" width="220" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="box_atm_service" value="Servicio de&#10;Cajeros" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#059669;fontColor=#0F172A;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="300" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="box_fraud" value="Servicio&#10;Antifraude" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#059669;fontColor=#0F172A;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="395" width="160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="actor_analyst" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=11;fontColor=#0F172A;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="390" width="50" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="actor_analyst_label" value="Analista&#10;de fraude" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontColor=#0F172A;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="462" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="box_core" value="Núcleo Bancario&#10;(Core)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDE9FE;strokeColor=#7C3AED;fontColor=#0F172A;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="540" width="220" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="box_db" value="BD&#10;transaccional" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=12;fillColor=#EDE9FE;strokeColor=#7C3AED;fontColor=#0F172A;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="540" width="160" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="box_notif" value="Servicio de&#10;Notificaciones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEDD5;strokeColor=#EA580C;fontColor=#0F172A;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="750" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="box_audit" value="Servicio de&#10;Auditoría" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEDD5;strokeColor=#EA580C;fontColor=#0F172A;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="750" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="box_interbank" value="Red interbancaria&#10;(externa)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=#475569;fontColor=#0F172A;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="910" width="240" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#2563EB;strokeWidth=2;endArrow=block;endFill=1;fontSize=9;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;exitX=0.7;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="box_app" target="box_tx">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#2563EB;strokeWidth=2;endArrow=block;endFill=1;fontSize=9;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="box_tx" target="box_fraud">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#2563EB;strokeWidth=2;endArrow=block;endFill=1;fontSize=9;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;exitX=0.3;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="box_tx" target="box_core">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#B45309;strokeWidth=3;endArrow=block;endFill=1;fontSize=9;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.3;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="box_atm" target="box_atm_service">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#2563EB;strokeWidth=2;endArrow=block;endFill=1;fontSize=9;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="box_atm_service" target="box_core">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#B45309;strokeWidth=3;endArrow=block;endFill=1;fontSize=9;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="box_tx" target="box_interbank">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="330"/>
+              <mxPoint x="700" y="380"/>
+              <mxPoint x="1140" y="380"/>
+              <mxPoint x="1140" y="940"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#7E22CE;strokeWidth=2;dashed=1;endArrow=block;endFill=1;fontSize=9;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;exitX=0.3;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="box_core" target="box_notif">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#7E22CE;strokeWidth=2;dashed=1;endArrow=block;endFill=1;fontSize=9;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;exitX=0.8;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="box_core" target="box_audit">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e_read_app" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#94A3B8;strokeWidth=1;dashed=1;endArrow=open;endFill=0;fontSize=8;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=0.3;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="box_app" target="box_accounts">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e_read_core" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#94A3B8;strokeWidth=1;dashed=1;endArrow=open;endFill=0;fontSize=8;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="box_accounts" target="box_core">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e_db" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#94A3B8;strokeWidth=1;dashed=1;endArrow=open;endFill=0;fontSize=8;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="box_core" target="box_db">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e_alert" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#94A3B8;strokeWidth=1;dashed=1;endArrow=open;endFill=0;fontSize=8;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="box_fraud" target="actor_analyst">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e_teller" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#94A3B8;strokeWidth=1;dashed=1;endArrow=open;endFill=0;fontSize=8;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="box_teller" target="box_accounts">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="865" y="240"/>
+              <mxPoint x="210" y="240"/>
+              <mxPoint x="210" y="330"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_e1" value="[1] TransferRequest&#10;gRPC/HTTP2 · sync" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=9;fontColor=#0F172A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="370" y="210" width="190" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_e2" value="[2] FraudCheck&#10;gRPC · 200 ms" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=9;fontColor=#0F172A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="345" width="150" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_e3" value="[3] PostTransaction&#10;gRPC · idempotente" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=9;fontColor=#0F172A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="170" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_e4" value="[4] RetiroRequest&#10;TCP · fijo · 15 s" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=9;fontColor=#0F172A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="610" y="200" width="170" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_e5" value="[5] DebitRequest&#10;gRPC · 10 s" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=9;fontColor=#0F172A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="425" width="150" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_e6" value="[6] 0200/0210&#10;TCP/ISO 8583 · timeout" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=9;fontColor=#0F172A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="640" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_e7" value="[7] TransferCompleted&#10;AMQP · async" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=9;fontColor=#0F172A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="590" y="650" width="170" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_e8" value="[8] AuditEvent&#10;Kafka/outbox · async" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=9;fontColor=#0F172A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="770" y="650" width="150" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_read_app" value="consulta de saldo&#10;gRPC · sync" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=9;fontColor=#0F172A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="260" y="245" width="120" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_read_core" value="consulta" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=9;fontColor=#0F172A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="390" y="390" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_db" value="SQL/TCP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=9;fontColor=#0F172A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="750" y="518" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_alert" value="alertas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=9;fontColor=#0F172A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="420" width="50" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl_teller" value="consulta" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=9;fontColor=#0F172A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="550" y="235" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="note_f1" value="F1: si el Core debita y la respuesta no llega al cajero antes de 15 s, el cajero NO dispensa.&#10;El servicio marca DEBITADO_NO_ENTREGADO y reversa/conciliia con el mismo op_id.&#10;Si el cajero sí entregó, su journal lo registra y no se reversa." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FEF2F2;strokeColor=#DC2626;fontColor=#7F1D1D;fontSize=9;align=left;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="520" width="390" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend" value="LEYENDA&#10;RPC: línea azul continua&#10;Sockets: línea ámbar gruesa&#10;Mensajería: línea púrpura punteada&#10;Síncrona: continua / Asíncrona: punteada&#10;&#10;Los números [1]–[8] coinciden con la matriz de interacciones.&#10;Actores: socio, cajero de ventanilla, cajero automático, analista de fraude y red interbancaria." style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="710" width="390" height="260" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
